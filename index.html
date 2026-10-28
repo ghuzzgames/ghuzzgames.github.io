@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ghuzz Games</title>
+<meta name="description" content="Ghuzz Games: bağımsız oyun stüdyosu. YOKAI: Shadow of the Ronin.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root { --bg: #04060c; --panel: #0c1220; --line: #1e2840; --ink: #f1eadb; --muted: #9ea6bb; --copper: #f08a46; --gold: #e9b85c; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(1200px 600px at 50% -10%, #13203d 0%, var(--bg) 60%) no-repeat, var(--bg); color: var(--ink);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; min-height: 100vh; }
+a { color: var(--copper); text-underline-offset: 3px; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 48px 20px 40px; }
+header { text-align: center; }
+header img { width: min(520px, 100%); height: auto; }
+header p { color: var(--muted); margin: 8px 0 0; letter-spacing: .14em; text-transform: uppercase; font-size: 13px; }
+.game { margin: 44px auto 0; max-width: 760px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+.game img { display: block; width: 100%; height: auto; aspect-ratio: 1024 / 500; }
+.game .txt { padding: 24px clamp(18px, 4vw, 32px) 28px; display: grid; gap: 12px; }
+.game h2 { margin: 0; font-size: 26px; line-height: 1.15; color: var(--gold); letter-spacing: .01em; }
+.game h2 span { display: block; font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink); margin-top: 4px; }
+.game p { margin: 0; }
+.game .en { color: var(--muted); font-size: 15px; }
+.badge { display: inline-block; justify-self: start; border: 1px solid var(--gold); color: var(--gold); border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600; }
+.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+.links a { border: 1px solid var(--line); background: #111a2e; color: var(--ink); text-decoration: none; padding: 8px 14px; border-radius: 10px; font-size: 15px; }
+.links a:hover { border-color: var(--copper); }
+footer { margin-top: 44px; text-align: center; color: var(--muted); font-size: 14px; display: grid; gap: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="ghuzz-games-logo.webp" width="720" height="403" alt="Ghuzz Games">
+    <p>Bağımsız oyun stüdyosu · <span lang="en">Independent game studio</span></p>
+  </header>
+
+  <section class="game" aria-labelledby="yokai">
+    <img src="yokai-banner.webp" width="1024" height="500" alt="YOKAI: Shadow of the Ronin">
+    <div class="txt">
+      <h2 id="yokai" lang="en">YOKAI<span>Shadow of the Ronin</span></h2>
+      <span class="badge">Google Play'de yakında · <span lang="en">Coming soon to Google Play</span></span>
+      <p>Japon mitolojisinin yokaileriyle dolu bir dünyada tek kılıçlı bir ronin. Tek parmakla savaş, boss'ları yen, silahını ve yoldaşlarını güçlendir.</p>
+      <p class="en">A lone ronin in a world full of the yokai of Japanese myth. Fight with one finger, defeat the bosses, power up your blade and companions.</p>
+      <div class="links">
+        <a href="yokai-privacy.html#tr">Gizlilik Politikası</a>
+        <a href="yokai-privacy.html#en">Privacy Policy</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>İletişim · Contact: <a href="mailto:ghuzzgames@gmail.com">ghuzzgames@gmail.com</a></div>
+    <div>© 2026 Ghuzz Games</div>
+  </footer>
+</div>
+</body>
+</html>
